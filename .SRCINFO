@@ -1,8 +1,7 @@
 pkgbase = qelectrotech
 	pkgdesc = An electric diagram editor
-	pkgver = 0.7.0
+	pkgver = 0.8.0
 	pkgrel = 1
-	epoch = 1
 	url = https://qelectrotech.org/
 	arch = i686
 	arch = x86_64
@@ -12,11 +11,11 @@ pkgbase = qelectrotech
 	depends = desktop-file-utils
 	depends = kwidgetsaddons
 	depends = kcoreaddons
-	depends = tk
-	source = https://github.com/qelectrotech/qelectrotech-source-mirror/archive/0.7.0.tar.gz
+	optdepends = tk
+	source = https://git.tuxfamily.org/qet/qet.git/snapshot/qet-0.8.0.zip
 	source = install-dir.patch
-	sha512sums = 7ed59203dbfeb8069fa9407ae8e7a6748c8c6bffddf9a64656477f8b4515587084e5ec908feddf67c589700e90577547114248d044c4b559827ba195d352201b
-	sha512sums = 37bda63af55fb422ab5c5950b229cc8a375295a43decffe31522c14e5dcc6dbeb9ca50a36ca40f595458af652cf1e0f46683a97c950b4745c12a1ddd31e28c57
+	sha512sums = 28a59aaf62c2bb9550861a727538b8e1e7582e318f5591c5dd10890d094a2c37324ec4cf900846593a22644828bc677dbcf17af24908712c148b3dbe7b5ba738
+	sha512sums = 7a8b99b7a5f59685638490149351977a52ba42998efb38f3394693e8642c451bb2894bdbd859b82ccef88c81fd7c92717725b4c292df201c78ff2ec3855b2da4
 
 pkgname = qelectrotech
 
